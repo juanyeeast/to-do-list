@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-size: 90px;
+    margin-top: 70px;
+    font-family: gotham;
+    color: grey;
+    padding-bottom: px;
+    text-align: center;
+    opacity: .5;
+}
+
+.forms {
+    text-align: center;
+    margin-top: 70px;
+}
+.button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-family: helvetica;
+    font-style: bold;
+    display: inline-block;
+    padding: 15px;
+    transition: .35s;
+    width: 70px;
+    opacity: .75;
+}
+#itemToAdd {
+    display: inline-block;
+    margin-left: 14px;
+}
+input {
+    padding: 12px;
+    padding-bottom: 14px;
+    width: 400px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: grey;
+    transition: .5s;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.activeButton {
+    background-color: white;
+    border: solid 3px red;
+    opacity: .75;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.list {
+    font-size: 20px;
+    font-family: garamond;
+    color: black;
+    width: 30%;
+    opacity: .5;
+    margin: 0 auto;
+    line-height: 150%;
+    transition: .10s padding-top: 40px;
+}
+.item {
+    cursor: pointer;
+    margin-top: 15px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    transition: .25s;
+}
+.strikethrough {
+     text-decoration: line-through;
+     opacity: .35;
+}
